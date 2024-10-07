@@ -4,7 +4,10 @@ function renderLicenseBadge(license) {
   if (license !== 'N/A') {
     return `![License](https://img.shields.io/badge/license-${license}-green.svg)`;
   }
-  return '';
+  else {
+    return '';
+  }
+  
 }
 
 // TODO: Create a function to generate markdown for README
