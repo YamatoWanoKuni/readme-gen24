@@ -20,7 +20,7 @@ Find me at github.com/YamatoWanoKuni
 Email: [cmcarbajal05@gmail.com](mailto:cmcarbajal05@gmail.com)
 [Tutorial](https://youtu.be/jZlwT-xmcgU) Video
 ## License
-MIT
+License badge MIT was rendered with [img.shields.io](https://img.shields.io)
 
 ## Features
 
