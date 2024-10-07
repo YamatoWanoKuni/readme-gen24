@@ -1,32 +1,35 @@
-# q
+# Readme Generator ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ## Description
-q
+Readme Generator
 ## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
 
 ## Installation
-q
+Readme Generator
+
 ## Usage
-q
+To initialize run Node index.js in your terminal
+
 ## Credits
-q q
+Find me at github.com/YamatoWanoKuni 
+Email:[cmarbajal05@gmail.com](mailto:cmcarbajal05@gmail.com)
+
 ## License
 MIT
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 ## Features
 
 ## Contributing
-q
+N/A
+
 ## Tests
 
-undefined
+npm test
 
 ## Questions
+

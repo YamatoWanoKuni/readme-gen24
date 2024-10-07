@@ -1,10 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "none") {
+  if (license !== 'N/A') {
     return `![License](https://img.shields.io/badge/license-${license}-green.svg)`;
   }
-  return "";
+  return '';
 }
 
 // TODO: Create a function that returns the license link
@@ -17,7 +17,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ${renderLicenseBadge(data.license)}
 ## Description
 ${data.title}
 ## Table of Contents 
@@ -26,29 +26,32 @@ ${data.title}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
 
 ## Installation
 ${data.title}
+
 ## Usage
 ${data.usage}
+
 ## Credits
-${data.username} ${data.email}
+Find me at github.com/${data.username} 
+Email: [${data.email}](mailto:${data.email})
+
 ## License
 ${data.license}
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 ## Features
 
 ## Contributing
 ${data.contributing}
+
 ## Tests
 
-${data.test}
+${data.tests}
 
 ## Questions
+
 `;
 }
 
